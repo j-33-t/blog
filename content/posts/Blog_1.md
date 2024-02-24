@@ -1,19 +1,18 @@
 ---
-title: "Building Your Blog with Hugo and GitHub Pages: A Step-by-Step Guide"
+title: "Blogging with Hugo and GitHub Pages"
 date: 2024-02-24T03:24:01+01:00
 draft: false
 ---
 
-**Title: Building Your Blog with Hugo and GitHub Pages: A Step-by-Step Guide**
 
-Are you looking to create your own blog but don't want the hassle of managing servers or paying for hosting? With Hugo and GitHub Pages, you can quickly set up a sleek and professional-looking blog without spending a dime. In this tutorial, we'll walk through the process of setting up your blog using Hugo, a static site generator, and GitHub Pages, a free hosting service provided by GitHub.
+Are you eager to create your own blog but don't want to manage servers or spend money on hosting? With Hugo and GitHub Pages, you can swiftly set up a stylish and professional-looking blog at zero cost. Follow this step-by-step tutorial to build your blog using Hugo, a static site generator, and GitHub Pages, a free hosting service provided by GitHub.
 
 ### Step 1: Install Hugo
-The first step is to install Hugo on your system. If you're using Fedora, you can easily install it using the terminal:
+Begin by installing Hugo on your system. If you're using Fedora, you can easily install it using the terminal:
 ```bash
 sudo dnf install hugo
 ```
-For other operating systems, you can refer to the official installation guide on the [Hugo website](https://gohugo.io/installation/).
+For other operating systems, refer to the official installation guide on the [Hugo website](https://gohugo.io/installation/).
 
 ### Step 2: Create a New Hugo Site
 Once Hugo is installed, create a new Hugo site using the following command:
@@ -48,16 +47,20 @@ git push -u origin main
 ```
 
 ### Step 6: Configure GitHub Pages
-Go to the settings of your GitHub repository and navigate to the "Pages" tab. Choose GitHub Actions as the build and deployment method, and select Hugo as the workflow. This will generate a `hugo.yml` file.
+Navigate to the settings of your GitHub repository and access the "Pages" tab. Choose GitHub Actions as the build and deployment method, and select Hugo as the workflow. Click the green "Commit changes" button after the YAML file is generated.
 
-### Step 7: Update Configuration
-Update the `baseURL` in the `config.yml` file to reflect your GitHub Pages URL.
-
-### Step 8: Sync Local and Remote Repositories
+### Step 7: Sync Local and Remote Repositories
 Before making any further changes locally, synchronize your local repository with the remote one by running `git pull`.
 
-### Step 9: Publish Your Blog
-Now you're ready to start adding content to your blog! You can create new posts using `hugo new posts/<filename>.md` and continue building your blog.
+### Step 8: Update Configuration
+Update the `baseURL` in the `config.yml` file to reflect your GitHub Pages URL. Here's an example of the `config.yml` file contents:
+```yaml
+baseURL: "<enter your link from GitHub Pages section in the settings>"
+languageCode: en-us
+title: Blog
+theme: paper
+```
 
-By following these steps, you can easily create and host your own blog using Hugo and GitHub Pages, allowing you to focus on creating content without worrying about the technical details of hosting. Happy blogging!
+Now, you're ready to start adding content to your blog! Create new posts using `hugo new posts/<filename>.md` and continue building your blog hassle-free.
 
+By following these steps, you can effortlessly create and host your own blog using Hugo and GitHub Pages, enabling you to focus on crafting captivating content without the complexities of hosting. Happy blogging!
