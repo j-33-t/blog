@@ -27,26 +27,32 @@ We have an AND operation which can take either 1 or 0 for two inputs x and Y and
 <!-- </div> -->
 
 
+
+
 We can see from the truth table that only when both x and y have input as 1 we have output as 1. 
 
 
 ### OR Gate
 In the following operation if either x or y has an input 1 then output is 1.
 
+<!-- <div style="overflow-x:auto;"> -->
 | x   | y   | OR  |
 | --- | --- | --- |
 | 0   | 0   | 0   |
 | 0   | 1   | 1   |
 | 1   | 0   | 1   |
 | 1   | 1   | 1   |
+<!-- </div> -->
 
 ### NOT Gate
 This one is a unary operation it only takes a single input and produces a single output:
 
+<!-- <div style="overflow-x:auto;"> -->
 | x   | NOT |
 | --- | --- |
 | 0   | 1   |
 | 1   | 0   |
+<!-- </div> -->
 We can see with the truth table above for NOT gate that this operation flips the input value provided. 
 
   
@@ -72,7 +78,7 @@ output for 0 or 1 is 1, hence
 
 output for NOT(1) is 0, hence
 
-=> (NOT (0 or (1 AND 1) ) = 0
+=> NOT (0 or (1 AND 1) ) = 0
 
   
 
@@ -80,10 +86,11 @@ output for NOT(1) is 0, hence
 
   
 **Formula**
-f(x,y,z) = (x and y) OR (NOT(x) and z) } 
+f(x,y,z) = (x and y) OR (NOT(x) and z)  
 
 **Truth Table**
 
+<!-- <div style="overflow-x:auto;"> -->
 | x   | y   | z   | f(x,y,z) |
 | --- | --- | --- | -------- |
 | 0   | 0   | 0   | 0        |
@@ -94,7 +101,7 @@ f(x,y,z) = (x and y) OR (NOT(x) and z) }
 | 1   | 0   | 1   | 0        |
 | 1   | 1   | 0   | 1        |
 | 1   | 1   | 1   | 1        |
-  
+<!-- </div> -->  
 
 ## Boolean Identities
 
@@ -142,23 +149,28 @@ Any Boolean function can be represented using an expression containing AND and N
 #### Proof
 (x OR y) = NOT(NOT(x) AND NOT (y))
 
+<!-- <div style="overflow-x:auto;"> -->
 | x   | y   | NOT(NOT(x) AND NOT (y)) |
 | --- | --- | ----------------------- |
 | 0   | 0   | 0                       |
 | 0   | 1   | 1                       |
 | 1   | 0   | 1                       |
 | 1   | 1   | 1                       |
+<!-- </div> --> 
+
 #### NAND GATE
 This is a combined version of AND and NOT.
 
 **Truth Table**
-
+<!-- <div style="overflow-x:auto;"> -->
 | x   | y   | NAND |
 | --- | --- | ---- |
 | 0   | 0   | 1    |
 | 0   | 1   | 1    |
 | 1   | 0   | 1    |
 | 1   | 1   | 0    |
+<!-- </div> --> 
+
 NAND Gate only ouputs 0 when both of its input are 1 and every other possibility gives 1. 
 Logically the x NAND Y is the negation of x AND y i.e 
 $$\LARGE {(x \ NAND \ y) = NOT(x \ AND \ y)}$$
