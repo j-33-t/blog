@@ -17,14 +17,14 @@ What can be done if we only have 0 and 1, lets take a look few example:
 ### AND Gate
 We have an AND operation which can take either 1 or 0 for two inputs x and Y and only return 0 or 1 as an output. Below is the truth table for this "AND" operation:
 
-<div style="overflow-x:auto;">
+<!-- <div style="overflow-x:auto;"> -->
 | x   | y   | AND |
 | --- | --- | --- |
 | 0   | 0   | 0   |
 | 0   | 1   | 0   |
 | 1   | 0   | 0   |
 | 1   | 1   | 1   |
-</div>
+<!-- </div> -->
 
 
 We can see from the truth table that only when both x and y have input as 1 we have output as 1. 
