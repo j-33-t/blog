@@ -17,9 +17,9 @@ draft: false
 ### NAND
 
 Gate Diagram:
-![nand gate](images/nandgate.png "Nand Gate")
+![nand gate](images/nandgate.png "Nand Gate") 
 
-{{ $image := resources.Get "images/nandgate.png" }}
+<img src="images/nandgate.png"/>
 
 Function specification: 
 ```HDL
