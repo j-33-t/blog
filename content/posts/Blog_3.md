@@ -17,7 +17,8 @@ draft: false
 ### NAND
 
 Gate Diagram:
-![[Screenshot from 2024-05-07 00-40-16.png]]
+![nand gate](nandgate.png "Nand Gate")
+
 Function specification: 
 ```HDL
 if (a==1 and b==1)
@@ -35,13 +36,10 @@ Truth Table
 | 1   | 1   | 0    |
 <!-- </div> --> 
 
-![[Screenshot from 2024-05-07 00-48-22.png]]
-
-
-
+![elementary gate](elementary.png "and or not gates")
 ### Circuit implementation
 
-![[Screenshot from 2024-05-07 00-51-29.png]]
+![Circuit implementations](Circuit_implementation.png "Circuit implementation of and or gates")
 
 The following course does not deal with physical implementation of gates 
 - Circuits, transistors, relays, etc is part of Electrical Engineering and not computer science.
