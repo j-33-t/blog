@@ -17,7 +17,7 @@ draft: false
 ### NAND
 
 Gate Diagram:
-![nand gate](nandgate.png "Nand Gate")
+![nand gate](images/nandgate.png "Nand Gate")
 
 Function specification: 
 ```HDL
@@ -36,10 +36,10 @@ Truth Table
 | 1   | 1   | 0    |
 <!-- </div> --> 
 
-![elementary gate](elementary.png "and or not gates")
+![elementary gate](blog/resources/_gen/images/elementary.png "and or not gates")
 ### Circuit implementation
 
-![Circuit implementations](Circuit_implementation.png "Circuit implementation of and or gates")
+![Circuit implementations](blog/resources/_gen/images/Circuit_Implementation.png "Circuit implementation of and or gates")
 
 The following course does not deal with physical implementation of gates 
 - Circuits, transistors, relays, etc is part of Electrical Engineering and not computer science.
