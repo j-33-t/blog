@@ -17,9 +17,8 @@ draft: false
 ### NAND
 
 Gate Diagram:
-![nand gate](images/nandgate.png "Nand Gate") 
 
-<img src="/static/images/nandgate.png"/>
+<img src="/blog/static/images/nandgate.png"/>
 
 Function specification: 
 ```HDL

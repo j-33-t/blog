@@ -148,6 +148,11 @@
   },
   "active": "5a8fb06654fc55f1",
   "lastOpenFiles": [
+    "static/images/nandgate.png",
+    "static/images/elementary.png",
+    "static/images/Circuit_Implementation.png",
+    "static/images",
+    "static",
     "content/posts/images/nandgate.png",
     "content/posts/images/elementary.png",
     "content/posts/images/Circuit_Implementation.png",
@@ -166,7 +171,6 @@
     "blog/resources/_gen",
     "blog/resources",
     "blog",
-    "resources/_gen/images/nandgate.png",
     "content/posts/Blog_1.md"
   ]
 }
