@@ -18,7 +18,7 @@ draft: false
 
 Gate Diagram:
 
-<img src="/blog/static/images/nandgate.png"/>
+<img src="/images/nandgate.png"/>
 
 Function specification: 
 ```HDL
