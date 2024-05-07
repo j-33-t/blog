@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16dbcbbdfb9033b2",
+        "id": "9767a94aab2ef304",
         "type": "tabs",
         "children": [
           {
-            "id": "aa20c1c17e8b4a14",
+            "id": "6de10c3d340ec8cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,9 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa20c1c17e8b4a14",
+  "active": "6de10c3d340ec8cf",
   "lastOpenFiles": [
     "content/posts/Blog_2.md",
-    "content/posts/Blog_3.md"
+    "content/posts/Blog_1.md",
+    "content/posts/Blog_3.md",
+    "resources/_gen/images/Screenshot from 2024-05-07 00-51-29.png",
+    "resources/_gen/images/Screenshot from 2024-05-07 00-48-22.png",
+    "resources/_gen/images/Screenshot from 2024-05-07 00-40-16.png"
   ]
 }

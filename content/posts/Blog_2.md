@@ -173,11 +173,19 @@ This is a combined version of AND and NOT.
 
 NAND Gate only ouputs 0 when both of its input are 1 and every other possibility gives 1. 
 Logically the x NAND Y is the negation of x AND y i.e 
+
 $$\LARGE {(x \ NAND \ y) = NOT(x \ AND \ y)}$$
 
 
+| x   | y   | NOT(not(x) or not(y)) |
+| --- | --- | --------------------- |
+| 0   | 0   | 0                     |
+| 0   | 1   | 0                     |
+| 1   | 0   | 0                     |
+| 1   | 1   | 1                     |
 
-
+x and y = NOT(not(x) or not(y))
+ 
 
 
 
