@@ -19,7 +19,7 @@ draft: false
 Gate Diagram:
 ![nand gate](images/nandgate.png "Nand Gate") 
 
-<img src="images/nandgate.png"/>
+<img src="/static/images/nandgate.png"/>
 
 Function specification: 
 ```HDL
