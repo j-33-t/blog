@@ -19,6 +19,8 @@ draft: false
 Gate Diagram:
 ![nand gate](images/nandgate.png "Nand Gate")
 
+{{ $image := resources.Get "images/nandgate.png" }}
+
 Function specification: 
 ```HDL
 if (a==1 and b==1)
