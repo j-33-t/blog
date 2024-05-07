@@ -18,7 +18,7 @@ draft: false
 
 Gate Diagram:
 
-<img src="/images/nandgate.png" alt="nand Gate Image"/>
+![Nang Gate Image](https://learnlearn.uk/alevelcs/wp-content/uploads/sites/20/2022/01/NAND-gate.png "Nand Gate Circuit Diagram")
 
 Function specification: 
 ```HDL
@@ -37,10 +37,11 @@ Truth Table
 | 1   | 1   | 0    |
 <!-- </div> --> 
 
-![elementary gate](blog/resources/_gen/images/elementary.png "and or not gates")
+![elementary gate](https://i.ibb.co/chF6t1j/Screenshot-from-2024-05-07-00-48-22.png "and or not gates")
+
 ### Circuit implementation
 
-![Circuit implementations](blog/resources/_gen/images/Circuit_Implementation.png "Circuit implementation of and or gates")
+![Circuit implementations](https://i.ibb.co/mhm1QrL/Screenshot-from-2024-05-07-00-51-29.png "Circuit implementation of and or gates")
 
 The following course does not deal with physical implementation of gates 
 - Circuits, transistors, relays, etc is part of Electrical Engineering and not computer science.
