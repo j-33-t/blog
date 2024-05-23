@@ -4,14 +4,6 @@ date: 2024-05-23T02:39:39+02:00
 draft: false
 ---
 
-Here is the detailed blog post for Week 3 of the nand2tetris course titled "Memory". This post includes the HDL code for each component and highlights the challenges faced during the implementation, particularly the Program Counter (PC).
-
----
-
-title: nand2Tetris - Week 3 - Memory  
-date: 2024-05-21T00:01:57+02:00  
-draft: false  
-
 # Memory
 
 This week, I focused on building memory components, from basic bits to the RAM16K chip. The transition from combinatorial logic to sequential logic was marked by the introduction of the DFF (Data Flip-Flop) chip, which serves as the fundamental building block for memory in this unit.
