@@ -148,6 +148,9 @@
   },
   "active": "5a8fb06654fc55f1",
   "lastOpenFiles": [
+    "content/posts/Blog_4.md",
+    "content/posts/Blog_2.md",
+    "content/posts/Blog_3.md",
     "static/nandgate.jpg",
     "static/nandgate.png",
     "static/elementary.png",
@@ -160,7 +163,6 @@
     "themes/paper/static/nandgate.png",
     "themes/paper/static/images/nandgate.png",
     "themes/paper/static/images/elementary.png",
-    "themes/paper/static/images/Circuit_Implementation.png",
     "themes/paper/static/images",
     "themes/paper/theme.toml",
     "themes/paper/tailwind.config.js",
@@ -184,8 +186,6 @@
     "themes/paper/exampleSite/content/about.md",
     "themes/paper/exampleSite/README.md",
     "themes/paper/README.md",
-    "content/posts/Blog_3.md",
-    "content/posts/Blog_2.md",
     "elementary.md",
     "blog/resources/_gen/images/Screenshot.md",
     "content/posts/Blog_1.md"

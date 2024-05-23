@@ -36,6 +36,7 @@ We can see from the truth table that only when both x and y have input as 1 we h
 In the following operation if either x or y has an input 1 then output is 1.
 
 <!-- <div style="overflow-x:auto;"> -->
+
 | x   | y   | OR  |
 | --- | --- | --- |
 | 0   | 0   | 0   |
@@ -48,6 +49,7 @@ In the following operation if either x or y has an input 1 then output is 1.
 This one is a unary operation it only takes a single input and produces a single output:
 
 <!-- <div style="overflow-x:auto;"> -->
+
 | x   | NOT |
 | --- | --- |
 | 0   | 1   |
@@ -175,16 +177,6 @@ NAND Gate only ouputs 0 when both of its input are 1 and every other possibility
 Logically the x NAND Y is the negation of x AND y i.e 
 
 $$\LARGE {(x \ NAND \ y) = NOT(x \ AND \ y)}$$
-
-
-| x   | y   | NOT(not(x) or not(y)) |
-| --- | --- | --------------------- |
-| 0   | 0   | 0                     |
-| 0   | 1   | 0                     |
-| 1   | 0   | 0                     |
-| 1   | 1   | 1                     |
-
-x and y = NOT(not(x) or not(y))
  
 
 

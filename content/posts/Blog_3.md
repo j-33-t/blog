@@ -29,6 +29,7 @@ then out=0 else out=1
 Truth Table
 
 <!-- <div style="overflow-x:auto;"> -->
+
 | x   | y   | NAND |
 | --- | --- | ---- |
 | 0   | 0   | 1    |
@@ -104,3 +105,9 @@ Building logic gates and chips in a structured and incremental manner is crucial
 ### Building Approach:
 
 Each gate or chip should be fully tested before proceeding to build more complex components that depend on it. Use the testing scripts provided by nand2tetris to ensure each component works correctly according to the specifications. This order of building ensures a logical progression, making debugging easier and helping solidify your understanding of digital logic as each new component introduces additional complexity.
+
+
+
+
+
+
