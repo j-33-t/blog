@@ -25,7 +25,7 @@ In this unit, the DFF chip was provided as an elementary memory chip. Unlike pre
 
 ## Bit
 
-![Bit Chip](https://i.sstatic.net/XjmZNm.png "Bit Chip Diagram")
+![Bit Chip](https://i.ibb.co/cL5tBpY/Screenshot-from-2024-05-23-03-04-19.png "Bit Chip Diagram")
 
 ### HDL Code
 ```HDL
@@ -46,7 +46,6 @@ CHIP Bit {
 - The Mux component selects whether to load a new input or retain the current stored value.
 
 ## Register
-
 
 ### HDL Code
 ```HDL
