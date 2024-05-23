@@ -1,7 +1,7 @@
 ---
 title: "nand2Tetris - Week 2 - Boolean Arithmetic and the ALU"
 date: 2024-05-23T00:52:22+02:00
-draft: true
+draft: false
 ---
  
 
