@@ -47,8 +47,6 @@ CHIP Bit {
 
 ## Register
 
-### Diagram
-![Register Diagram](link_to_diagram)
 
 ### HDL Code
 ```HDL
