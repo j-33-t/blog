@@ -25,7 +25,7 @@ In this unit, the DFF chip was provided as an elementary memory chip. Unlike pre
 
 ## Bit
 
-![Bit Chip](https://i.sstatic.net/XjmZNm.png)
+![Bit Chip](https://i.sstatic.net/XjmZNm.png "Bit Chip Diagram")
 
 ### HDL Code
 ```HDL

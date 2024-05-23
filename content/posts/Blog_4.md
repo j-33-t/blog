@@ -158,7 +158,7 @@ CHIP Add16 {
 The ALU is one of the most critical components in digital systems. It performs arithmetic and logic operations. The ALU we built has multiple output pins to accommodate various functions like addition, bitwise operations, and more.
 
 ### Diagram
-![ALU Diagram](https://miro.medium.com/v2/resize:fit:1400/1*9lnVBKVPiBrAExwLg0cWqA.png)
+![ALU Diagram](https://miro.medium.com/v2/resize:fit:1400/1*9lnVBKVPiBrAExwLg0cWqA.png "ALU chip diagram")
 
 ### HDL Code
 ```HDL
